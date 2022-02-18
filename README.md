@@ -1,3 +1,3 @@
-### To install dependencies do
+### Website link
 
-- npm i
+https://nischhal-portfolio.herokuapp.com/
