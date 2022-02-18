@@ -1,0 +1,94 @@
+#home {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 250px;
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+  position: relative;
+}
+
+.title {
+  color: #64ffda;
+  font-size: 25px;
+  margin-bottom: 15px;
+}
+
+.name {
+  color: #e6f1ff;
+  font-size: 70px;
+  margin-bottom: 15px;
+}
+
+.typing {
+  color: #d95d39;
+  font-size: 40px;
+  font-family: 'Supermercado One', cursive;
+  margin-bottom: 30px;
+}
+
+.status {
+  font-size: 25px;
+}
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  position: fixed;
+  top: 400px;
+  left: 40px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+.contact-link {
+  color: white;
+}
+
+.icons:hover {
+  color: #d5a021;
+  transform: rotate(360deg);
+  transition: all 1.5s ease-in-out;
+}
+.icons {
+  margin-bottom: 15px;
+  animation: load 3000ms ease-in;
+}
+
+.cv {
+  height: 45px;
+  background-color: #0a192f;
+  border-radius: 5%;
+  border-color: #64ffda;
+  box-shadow: 2px 0px 0px 0px#e6f1ff;
+  position: absolute;
+  position: fixed;
+  right: 30px;
+  bottom: 50px;
+}
+
+.cv :hover {
+  cursor: pointer;
+}
+.blink {
+  padding: 10px 10px 10px 10px;
+  font-size: 22px;
+  font-family: cursive;
+  color: #64ffda;
+  animation: blink 1.5s linear infinite;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
