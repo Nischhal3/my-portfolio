@@ -28,7 +28,7 @@ const Contact = () => {
   return (
     <div id="contact">
       <h2 className="contact-header">Contact</h2>
-      <p>Please leave a message here for further work detail. </p>
+      <p>Please leave message here for further work detail. </p>
       <form ref={form} onSubmit={sendEmail} className="email-field">
         <input
           className="field"
