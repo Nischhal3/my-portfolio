@@ -20,13 +20,15 @@ body {
   position: fixed;
   right: 40px;
   cursor: pointer;
+  z-index: 1;
 }
 
 .navigation > a {
   text-decoration: none;
 }
 .nav-list {
-  color: white;
+  font-size: 20px;
+  color: #fc814a;
   list-style-type: none;
   margin: 10px 20px 20px 40px;
 }

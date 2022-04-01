@@ -32,7 +32,10 @@
 .status {
   font-size: 25px;
 }
-
+.note {
+  color: red;
+  font-size: 20px;
+}
 .contacts {
   display: flex;
   flex-direction: column;
