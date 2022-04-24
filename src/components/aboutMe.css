@@ -89,3 +89,18 @@
   color: #64ffda;
   margin: 5px;
 }
+
+@media (min-width: 280px) and (max-width: 375px) {
+  #about {
+    margin-top: -150px;
+    margin-left: 130px;
+    margin-right: 80px;
+    width: 120%;
+  }
+  .about-header {
+    margin-left: 8px;
+  }
+  .image-box {
+    display: none;
+  }
+}

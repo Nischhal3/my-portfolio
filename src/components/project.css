@@ -173,3 +173,64 @@
 .cart-image {
   width: 100%;
 }
+
+@media (min-width: 280px) and (max-width: 375px) {
+  #project {
+    margin: 130px;
+    width: 120%;
+  }
+
+  .project-01,
+  .project-02,
+  .project-03,
+  .project-04 {
+    flex-direction: column;
+  }
+
+  .shopping {
+    width: 300px;
+  }
+
+  .shop-image,
+  .node-image,
+  .cart {
+    width: 300px;
+    height: 200px;
+    max-width: 120vw;
+  }
+
+  .title-01,
+  .title-02,
+  .title-03,
+  .title-04 {
+    margin: 60px 0px 0px -20px;
+  }
+
+  .header-01,
+  .header-02,
+  .header-03,
+  .header-04 {
+    justify-content: flex-start;
+  }
+
+  .header-01 > h3,
+  .header-02 > h3,
+  .header-03 > h3,
+  .header-04 > h3 {
+    margin-right: 40px;
+  }
+
+  .project-02,
+  .project-03,
+  .project-04 {
+    margin-top: 0px;
+  }
+
+  .project-02 {
+    margin-bottom: 70px;
+  }
+  .todo {
+    height: 400px;
+    margin-top: 20px;
+  }
+}

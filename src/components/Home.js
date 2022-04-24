@@ -32,10 +32,7 @@ const Home = () => {
           Sciences as a second year student, specialized in Web and
         </p>
         <p className="status">Mobile development.</p>
-        <p className="note">
-          <br></br>
-          Note : Portfolio is under development. It is not responsive!
-        </p>
+
         <p className="status"> </p>
       </div>
       <div className="contacts">
